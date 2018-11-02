@@ -35,7 +35,7 @@ img:hover{
     width: 400px;
     height: 350px;
     margin: auto;
-    background-image: url(lik1.jpg);
+    background-image: url(images/lik1.jpg);
     background-size: cover;
     background-color: white;
     border: 10px solid gray; 
@@ -46,7 +46,7 @@ img:hover{
       width: 400px;
     height: 350px;
     margin: auto;
-    background-image: url(lik2.jpg);
+    background-image: url(images/lik2.jpg);
     background-size: cover;
     background-color: white;
     border: 10px solid gray; 
