@@ -14,8 +14,22 @@ html body{
     background-clip: #ccc;
 }
 img {
-    max-width: 600px;
-  
+    max-width: 600px; 
+}
+
+img:hover{
+  border: 10px solid red;
+}
+
+#ascuns {
+    overflow: hidden;
+    position: absolute;
+    padding: auto;
+    margin: auto;
+}
+
+#ascuns:hover{
+    border: 5px solid red;
 }
 #img-div {
     
@@ -24,6 +38,9 @@ img {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
+
 
 #img-caption{
     font-size: 50px;
