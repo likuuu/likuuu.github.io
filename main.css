@@ -32,13 +32,25 @@ img:hover{
     border: 5px solid red;
 }
 #img-div {
-    
-   background-color: white;
-    margin:0px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    background-image: url(lik1.jpg);
+    background-size: cover;
+    background-color: white;
+    border: 10px solid gray; 
+    transition: ease 0.5s;
 }
 
+#img-div:hover{
+      width: 400px;
+    height: 350px;
+    margin: auto;
+    background-image: url(lik2.jpg);
+    background-size: cover;
+    background-color: white;
+    border: 10px solid gray; 
+}
 
 
 
@@ -78,11 +90,12 @@ header{
 header ul li a{
     text-decoration: none;
     color: #ccc;
+    transition: ease 0.3s;
 }
 
 header ul li a:hover{
     color: #2e6c9b;
-    font-size: 20.5px;
+    font-size: 20.2px;
 }
 header ul li{
     font-size: 20px;
