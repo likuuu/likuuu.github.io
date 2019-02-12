@@ -1,0 +1,116 @@
+html, body {
+      background-color: #8ea08e;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-top: 16%;
+    padding-left: 45%;
+    left: 50%;
+    top:50%;
+}
+nav {
+    top:0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+      position: fixed;
+}
+
+nav ul li a:hover{
+    color: gainsboro;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+  
+   
+}
+
+nav ul li a {
+    font-weight: 130px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all .1s ease-out;
+  
+}
+
+nav ul {
+
+    padding-left: 750px;
+   list-style: none;
+    text-align: center;  
+    background-color: #8ea08e;
+    
+}
+
+nav ul li {
+ 
+   
+padding: 20px 10px 10px 80px;  
+display: inline-block;
+}
+div {
+    padding-left: 100px;
+}
+
+.pasare{
+    
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 200px;
+    opacity: .8;
+    
+    padding-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+hr{
+margin-top: 5em;
+}  
+
+.contact-form, .but {
+      background-color: #8ea08e;
+}
+
+input {
+   color: snow;
+}
+
+::placeholder{
+    color: white;
+}
+
+p{
+    color: white;
+    padding-left: 44px;
+}
+
+.box {
+    position: absolute;
+    top: 23%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: calc(1536px/ 9);
+    height: 256px;
+    background: url(spritestrip.png);
+    animation: animate 0.9s steps(6) infinite;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1536px;
+    }
+}
+
+.music{
+display: none;
+}
+
